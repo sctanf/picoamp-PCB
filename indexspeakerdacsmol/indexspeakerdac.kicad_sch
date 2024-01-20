@@ -1787,7 +1787,7 @@
     (property "Reference" "C24" (at 236.601 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 236.601 29.083 0)
+    (property "Value" "0.1uF" (at 236.601 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 234.6452 31.75 0)
@@ -1796,8 +1796,17 @@
     (property "Datasheet" "~" (at 233.68 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c4c6e85-f827-4111-a85c-72700ee1fd46))
-    (pin "2" (uuid e22ee4d5-be53-48e0-907d-f8c16b158de1))
+    (property "Manufacturer_Name" "Murata" (at 233.68 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 233.68 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 233.68 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3a4188b2-de13-4c01-b83e-4ef36b7db67b))
+    (pin "2" (uuid 35f74be4-bf2e-4f5a-8a08-97cd41e960d9))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1818,7 +1827,7 @@
     (property "Reference" "C20" (at 190.881 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 190.881 29.083 0)
+    (property "Value" "0.1uF" (at 190.881 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 188.9252 31.75 0)
@@ -1827,8 +1836,17 @@
     (property "Datasheet" "~" (at 187.96 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14b5dbf8-933d-4669-a47c-755d51adfa30))
-    (pin "2" (uuid dbceac0a-797d-4d88-bcbb-408654bd6025))
+    (property "Manufacturer_Name" "Murata" (at 187.96 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 187.96 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 187.96 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eafc1990-e4f6-4f64-86dd-d9bc6524bb8c))
+    (pin "2" (uuid 6db50191-a820-4e7b-89c5-e0e7e66b37d9))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1858,10 +1876,19 @@
     (property "Datasheet" "~" (at 113.03 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a6881791-73f7-421c-a80f-8a07012577d7))
-    (pin "2" (uuid 2ff52619-3b4d-41d1-bc66-b7b8451c1454))
-    (pin "3" (uuid 88bf5a5d-ee7c-45c9-a429-db1eb2216c17))
-    (pin "4" (uuid 5f5e9152-b8dc-4ed8-824a-b1e3671cf3a9))
+    (property "Manufacturer_Name" "ECS" (at 113.03 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "ECS-120-10-33-AGM-TR" (at 113.03 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "520-120-10-33-AGMT" (at 113.03 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5d60b500-238f-41c3-a6aa-89a02b77de61))
+    (pin "2" (uuid fa52b7fb-5058-4a0a-ae6c-aa57afe94c98))
+    (pin "3" (uuid 8e97b84a-13f6-4a18-b89f-011e76248abc))
+    (pin "4" (uuid 88226052-1f92-4db4-9211-8a987294e791))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1886,7 +1913,7 @@
     (property "Datasheet" "" (at 233.68 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aae8b17f-aed5-4602-b579-a7de759a5f22))
+    (pin "1" (uuid 1e4ffa8b-ec44-496d-903e-c7f69384ebd7))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1916,7 +1943,7 @@
     (property "Datasheet" "" (at 115.57 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 621bae33-6ed6-4f21-a0b5-6baf9947568d))
+    (pin "1" (uuid ac7f6c5d-6994-434b-a532-8bb5f3f5dfa9))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1937,7 +1964,7 @@
     (property "Reference" "C15" (at 135.001 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 135.001 29.083 0)
+    (property "Value" "0.1uF" (at 135.001 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 133.0452 31.75 0)
@@ -1946,8 +1973,17 @@
     (property "Datasheet" "~" (at 132.08 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 874ed3d2-6515-460c-a41a-44fbde0859da))
-    (pin "2" (uuid f330c680-4b5f-4e41-bc3b-4382b038f2cf))
+    (property "Manufacturer_Name" "Murata" (at 132.08 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 132.08 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 132.08 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5fca592a-3886-4f72-9828-85e36d7457f5))
+    (pin "2" (uuid 5b3dc4b4-3376-4d6d-a772-81f0eacd90d9))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1977,7 +2013,7 @@
     (property "Datasheet" "" (at 67.31 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 573404dc-869d-420d-b179-fa1f6fee76a6))
+    (pin "1" (uuid 0e621fa0-edf2-4f4e-8b3a-089a253f8944))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -1993,7 +2029,7 @@
     (property "Reference" "C22" (at 213.741 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 213.741 29.083 0)
+    (property "Value" "0.1uF" (at 213.741 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 211.7852 31.75 0)
@@ -2002,8 +2038,17 @@
     (property "Datasheet" "~" (at 210.82 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8266418c-651c-46da-997c-4bab202e4194))
-    (pin "2" (uuid e4b408e3-09c0-48e4-87c0-252ad45d2c27))
+    (property "Manufacturer_Name" "Murata" (at 210.82 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 210.82 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 210.82 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cf046020-42b1-46ab-86ba-521d8cd0d475))
+    (pin "2" (uuid 4ccfdf8a-a8e3-4560-80d7-cd6a566bbe4b))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2033,7 +2078,7 @@
     (property "Datasheet" "" (at 120.65 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b8d48aee-6b69-4f01-a5e2-1c7fa26ac7ac))
+    (pin "1" (uuid 7d72a7c3-d9db-435b-ac84-a7d41b0e4012))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2058,31 +2103,25 @@
     (property "Datasheet" "https://www.mouser.jp/datasheet/2/256/MAX98360A-MAX98360D-1839867.pdf" (at 223.52 253.34 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "" (at 223.52 453.34 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
     (property "Mouser Part Number" "700-MAX98360AEFB+T" (at 223.52 553.34 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX98360AEFB%2bT?qs=vHuUswq2%252Bsw0l9dGnH5G9w%3D%3D" (at 223.52 653.34 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Analog Devices" (at 223.52 753.34 0)
+    (property "Manufacturer_Name" "Analog Devices Inc." (at 223.52 753.34 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Manufacturer_Part_Number" "MAX98360AEFB+T" (at 223.52 853.34 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid dcefc7c8-b53b-4d8b-9872-147a029a1172))
-    (pin "10" (uuid 1b9e89a6-7914-49ea-b530-ae07ed0a1581))
-    (pin "2" (uuid 86db7654-83a9-4b81-b564-4d67203c6389))
-    (pin "3" (uuid 0e378b5d-00d8-45c5-89e6-a423bc2ad0c5))
-    (pin "4" (uuid bfd951b0-3865-4dd5-b907-79bec93fd72b))
-    (pin "5" (uuid 27d53d3c-396d-4bae-aaa2-f7c01e39970b))
-    (pin "6" (uuid 5a5f6071-9638-4736-89f9-008ef60ab4e3))
-    (pin "7" (uuid 8e913c01-b081-4751-9887-b5e804c97601))
-    (pin "8" (uuid bf363528-dc65-4f6e-ae03-8c93df8ec030))
-    (pin "9" (uuid 85dda619-3044-4c31-b850-5048ff6d0c73))
+    (pin "1" (uuid b4662e14-6249-4a6d-a86d-a69d9a47fcb5))
+    (pin "10" (uuid 25bde2de-7036-4ea5-9b20-d51aa5b1ec1e))
+    (pin "2" (uuid ee0fe549-23bc-4dea-b7c3-898032f19696))
+    (pin "3" (uuid c0535322-ddff-4f7e-8d6e-bf8ad3bd65b1))
+    (pin "4" (uuid 9978990a-ee8c-49be-88be-b02f3e888f2f))
+    (pin "5" (uuid d77301ee-baa1-4c2f-8e70-4755b21a79ae))
+    (pin "6" (uuid c51a5921-9f65-4c41-967b-59ec6cd58248))
+    (pin "7" (uuid c8773cf2-fe08-462a-a846-42461cc68c3d))
+    (pin "8" (uuid 7d58065f-02a0-4499-b23e-a6c05ecf1a58))
+    (pin "9" (uuid 18c779f7-79b4-43d0-ac29-ffea07d40826))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2107,7 +2146,7 @@
     (property "Datasheet" "" (at 93.98 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 662bc62e-6af8-4930-b73b-bd5eff8ee08f))
+    (pin "1" (uuid ea4001d3-758e-4d08-9212-b02ff1643fbb))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2123,7 +2162,7 @@
     (property "Reference" "R1" (at 116.84 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 116.84 115.57 90)
+    (property "Value" "1k" (at 116.84 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 116.84 121.158 90)
@@ -2132,8 +2171,17 @@
     (property "Datasheet" "~" (at 116.84 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 93b5bd14-d5eb-4e90-b505-8bf02e47bc73))
-    (pin "2" (uuid c160eda5-0987-4467-9d7d-8113e46a99cd))
+    (property "Manufacturer_Name" "Vishay" (at 116.84 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "CRCW04021K00FKED" (at 116.84 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "71-CRCW0402-1.0K-E3" (at 116.84 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e89f87c9-cc49-46b5-9ae9-8d0778d9cbf9))
+    (pin "2" (uuid 6ed6cf57-979b-49fc-bfc0-d9a04e55680b))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2158,10 +2206,10 @@
     (property "Datasheet" "~" (at 62.23 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6250340-eb8e-4a5c-bf43-bce1f50db61a))
-    (pin "2" (uuid 917a7acd-2b54-43d7-a433-adf09f55f75b))
-    (pin "3" (uuid 3640ebbb-b8a5-453d-a84e-ab596afd81ec))
-    (pin "4" (uuid 2b574bca-1662-4c33-a15e-772e1681a163))
+    (pin "1" (uuid 14985ee5-2ebd-4c2c-8707-28bcaf0e100b))
+    (pin "2" (uuid 1ee33f07-39d5-4295-a14a-878ac8e4d5d8))
+    (pin "3" (uuid 17b8c4f3-5d71-4c51-b654-1f5295851822))
+    (pin "4" (uuid e42eec54-cd77-4f6e-bd02-c7cf58ef8e62))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2186,31 +2234,25 @@
     (property "Datasheet" "https://www.mouser.jp/datasheet/2/256/MAX98360A-MAX98360D-1839867.pdf" (at 223.52 313.03 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "" (at 223.52 513.03 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
     (property "Mouser Part Number" "700-MAX98360AEFB+T" (at 223.52 613.03 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX98360AEFB%2bT?qs=vHuUswq2%252Bsw0l9dGnH5G9w%3D%3D" (at 223.52 713.03 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Analog Devices" (at 223.52 813.03 0)
+    (property "Manufacturer_Name" "Analog Devices Inc." (at 223.52 813.03 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Manufacturer_Part_Number" "MAX98360AEFB+T" (at 223.52 913.03 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 01d45194-0fed-4c43-8862-540c51717a5b))
-    (pin "10" (uuid e6b0311b-e7e1-4366-a463-4a4339202623))
-    (pin "2" (uuid c691e3bc-e6cc-46c4-bd8e-1c08e51415f7))
-    (pin "3" (uuid 17acc796-81c1-4c4a-82f1-8f750c6e03a6))
-    (pin "4" (uuid a08bb3fe-4843-44d0-bf9f-c06fda8f2b30))
-    (pin "5" (uuid ee9dbd8c-90c0-4fa7-973a-7ac63144934c))
-    (pin "6" (uuid c6ad2838-0b76-444d-8284-c2c14ec6d279))
-    (pin "7" (uuid d9595fed-0be7-404c-ab4a-204ba326edd5))
-    (pin "8" (uuid ea68574d-2140-44eb-879f-2a5d061b88ab))
-    (pin "9" (uuid 0aadeb72-425c-48df-803b-6d2e7107615a))
+    (pin "1" (uuid d1afc49e-6488-4feb-8534-557e45e42def))
+    (pin "10" (uuid fd9a269e-fb25-4362-a4a0-00b28c19ee8e))
+    (pin "2" (uuid 4d41daf9-25ca-4f4f-91c9-4851cf952d08))
+    (pin "3" (uuid 29a2ae07-09a7-47fd-87e5-46a5d7408fa1))
+    (pin "4" (uuid 3b37060c-efd6-48d8-8f7c-8a27a40ca674))
+    (pin "5" (uuid d8c0aa7c-5931-4789-ae7c-9df6ddd04a0c))
+    (pin "6" (uuid fbfb116a-2e91-4319-998e-fdb513e4fa44))
+    (pin "7" (uuid 8193aff1-60e8-4596-be75-163722c9966e))
+    (pin "8" (uuid 91d0a4c5-8732-4d07-b648-5491b8f3d81b))
+    (pin "9" (uuid 26d46b8c-c850-4db8-b98e-2509c0318a12))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2226,7 +2268,7 @@
     (property "Reference" "C18" (at 168.021 42.0116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (at 168.021 44.323 0)
+    (property "Value" "1uF" (at 168.021 44.323 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 166.0652 46.99 0)
@@ -2235,8 +2277,17 @@
     (property "Datasheet" "~" (at 165.1 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1f57123-b396-4352-93e0-a240d4389b2b))
-    (pin "2" (uuid 32b98a67-1707-486d-b6ce-abab72b0c4f8))
+    (property "Manufacturer_Name" "Murata" (at 165.1 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM155C81A105KA12J" (at 165.1 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM155C81A105KA2J" (at 165.1 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eca00a04-b324-41a1-9023-21a318b2ea2c))
+    (pin "2" (uuid d7699ac2-fd99-40fe-af1f-d65b5f62b594))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2266,8 +2317,17 @@
     (property "Datasheet" "~" (at 80.01 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fef19841-8007-4e1f-a108-af7a77186387))
-    (pin "2" (uuid 2e489d61-be6c-4713-9b9e-a2ac7f812fa1))
+    (property "Manufacturer_Name" "Murata" (at 80.01 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM155C81A105KA12J" (at 80.01 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM155C81A105KA2J" (at 80.01 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e12353c7-5059-49ef-bf1d-90e5ab866fb7))
+    (pin "2" (uuid 6a61df04-f024-4b17-9b82-9367164b3a8d))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2292,7 +2352,7 @@
     (property "Datasheet" "" (at 76.2 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6742761d-db6f-4bba-be09-53d27cba40cb))
+    (pin "1" (uuid 781be678-a858-4939-bd98-89cc085907e3))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2322,8 +2382,17 @@
     (property "Datasheet" "~" (at 104.14 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 262d853a-4cce-4218-b4c2-ab7e0b84460b))
-    (pin "2" (uuid 9502d4d6-857b-4ad8-a425-74cc37ec91af))
+    (property "Manufacturer_Name" "YAGEO" (at 104.14 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "RC0201FR-0727RL" (at 104.14 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "603-RC0201FR-0727RL" (at 104.14 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a40e93d0-478f-4e46-8732-fd5f58930325))
+    (pin "2" (uuid 41680bb0-de8a-4be3-a366-2716f115e877))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2348,7 +2417,7 @@
     (property "Datasheet" "" (at 80.01 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bc06513-d17e-46f0-b2a1-27934caf3908))
+    (pin "1" (uuid 4c2dd77a-7ee3-4795-ac4b-a84f85df01da))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2373,7 +2442,7 @@
     (property "Datasheet" "" (at 120.65 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e39377c4-fa37-4b54-841b-d4d2135fdc26))
+    (pin "1" (uuid 42add18c-2807-46c9-a39d-94f95c7b75e2))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2403,7 +2472,7 @@
     (property "Datasheet" "" (at 165.1 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5cd22f0a-ba6c-4f3d-9148-ecb3503fb2ec))
+    (pin "1" (uuid 73e3b923-9b90-4f00-851f-c8f2ee5a1186))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2433,7 +2502,7 @@
     (property "Datasheet" "" (at 91.44 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 665bb61b-a830-411f-a4bb-ec884ac0569f))
+    (pin "1" (uuid 2a6b70ca-e831-43bc-b69c-0176fc287d21))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2458,7 +2527,7 @@
     (property "Datasheet" "" (at 132.08 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9b6cb56-6073-4bf7-90ba-946ba78295b5))
+    (pin "1" (uuid 9dcbcbaf-e285-4e1e-a9b0-401865b46514))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2488,7 +2557,7 @@
     (property "Datasheet" "~" (at 71.12 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc18aae9-c8f5-467b-82f4-025b649f1c84))
+    (pin "1" (uuid eb9ccca8-48f4-4656-af5d-1584ccf3d2d1))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2513,8 +2582,17 @@
     (property "Datasheet" "~" (at 194.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c51684f-785a-4796-9248-812959820c9d))
-    (pin "2" (uuid 35cb10d9-f878-4fea-989a-78c38ac3ecd7))
+    (property "Manufacturer_Name" "Murata" (at 194.31 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM188C81A106MA73D" (at 194.31 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM188C81A106MA3D" (at 194.31 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a44029c5-6027-41b1-b398-17b06f54eb3a))
+    (pin "2" (uuid 8c2180be-fd2e-408c-9fb1-e34763bda891))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2539,13 +2617,7 @@
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/W25Q16JVUXIQ TR.pdf" (at 107.95 273.66 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Height" "0.6" (at 107.95 473.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
     (property "Mouser Part Number" "454-W25Q16JVUXIQTR" (at 107.95 573.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q16JVUXIQ-TR?qs=qSfuJ%252Bfl%2Fd7SDdIHLGOd1g%3D%3D" (at 107.95 673.66 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Manufacturer_Name" "Winbond" (at 107.95 773.66 0)
@@ -2554,15 +2626,15 @@
     (property "Manufacturer_Part_Number" "W25Q16JVUXIQ TR" (at 107.95 873.66 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 933d5b51-8d8d-42a8-9425-99d99ed53702))
-    (pin "2" (uuid 7c48f432-c8f5-460b-8dfd-32b04dfc4db4))
-    (pin "3" (uuid 48180332-6c56-4f40-82f6-82b535887d2e))
-    (pin "4" (uuid 23c423a6-f93c-42ac-b22c-0ca7f06460e5))
-    (pin "5" (uuid 3521baff-baa9-4783-a20e-76aea0ba5b5f))
-    (pin "6" (uuid 1318d661-eb04-409f-b47a-45d324556828))
-    (pin "7" (uuid f2c14d08-3f18-4cb9-94a7-96c8f5b988df))
-    (pin "8" (uuid fe261385-04f8-4e5f-8bef-9b69f504de21))
-    (pin "9" (uuid 01d6537b-59d0-453d-8caf-9e155529452a))
+    (pin "1" (uuid 8de01456-463b-439c-97f1-14ebc8182ee7))
+    (pin "2" (uuid 0f49bc91-48e5-49de-b124-10b426feb028))
+    (pin "3" (uuid 8d71cc78-5b03-498b-a1b1-ca30c88b8b51))
+    (pin "4" (uuid 5afdfa2e-f9a0-44b9-8b18-fb0746ceeaf2))
+    (pin "5" (uuid 0ba2f07a-5343-4131-a555-7e116811d1ee))
+    (pin "6" (uuid 30c75c1c-16a3-4515-850a-86f59fa9b615))
+    (pin "7" (uuid a825ba26-34f7-4de3-9225-5cbd916443c6))
+    (pin "8" (uuid 46ca8a95-1fdd-4523-a8fe-17b336102db2))
+    (pin "9" (uuid a1db44a1-b5b7-45f9-80ec-cdbb470c7801))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2587,7 +2659,7 @@
     (property "Datasheet" "" (at 191.77 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4aa9e9a2-9e14-4406-ac48-10e748702022))
+    (pin "1" (uuid e565a113-94ad-4605-83cf-d9a7d8ee2b59))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2612,8 +2684,17 @@
     (property "Datasheet" "~" (at 97.79 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44d9266b-72d7-4b25-a282-0f1f45fd485f))
-    (pin "2" (uuid 1eaa79a2-edc0-478c-863f-fd61f44118b7))
+    (property "Manufacturer_Name" "Murata" (at 97.79 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM0335C1E150JA01D" (at 97.79 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM0335C1E150JA1D" (at 97.79 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 219e54d0-dfca-4485-b247-3099426d6a47))
+    (pin "2" (uuid 989bf98f-0011-4e4d-94e8-57aad58e2234))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2629,7 +2710,7 @@
     (property "Reference" "C19" (at 179.451 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 179.451 29.083 0)
+    (property "Value" "0.1uF" (at 179.451 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 177.4952 31.75 0)
@@ -2638,8 +2719,17 @@
     (property "Datasheet" "~" (at 176.53 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 149162e6-7e57-4cbb-89da-283a6537d5ed))
-    (pin "2" (uuid 820f8153-68e8-414a-b662-861c24de72ae))
+    (property "Manufacturer_Name" "Murata" (at 176.53 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 176.53 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 176.53 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 04ec5859-c1e1-4751-9c73-94569ec62c52))
+    (pin "2" (uuid 11e6bdb8-6bb0-4b04-8ec9-86878a653531))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2669,7 +2759,7 @@
     (property "Datasheet" "" (at 209.55 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fefd8bb-049a-43a3-9ed1-86f4e3338a26))
+    (pin "1" (uuid 15d39900-18b9-425f-8365-e7a981afbdac))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2694,8 +2784,17 @@
     (property "Datasheet" "~" (at 200.66 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 996890a9-17a1-4857-ba4e-ae1fdfa313a5))
-    (pin "2" (uuid 1ed1e9f9-61a7-40eb-9aac-8c00fb71e147))
+    (property "Manufacturer_Name" "Murata" (at 200.66 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM155R61A104KA01J" (at 200.66 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM15R61A104KA01J" (at 200.66 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dc2b97c2-eb26-4c2a-a84f-ce90a6cf2dfa))
+    (pin "2" (uuid 1eaf6dc6-9ccc-42ce-9142-a5a84ce255ad))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2720,8 +2819,17 @@
     (property "Datasheet" "~" (at 194.31 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5b4b357-7fec-440d-b419-647f432a0670))
-    (pin "2" (uuid 5874b581-1c18-4d14-91f7-f6b6eb011811))
+    (property "Manufacturer_Name" "Murata" (at 194.31 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM188C81A106MA73D" (at 194.31 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM188C81A106MA3D" (at 194.31 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b52af69f-69d2-4921-bc82-746b2853c329))
+    (pin "2" (uuid bfc8fba5-e5bb-4d98-9446-e9874332fa7d))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2737,7 +2845,7 @@
     (property "Reference" "C23" (at 225.171 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 225.171 29.083 0)
+    (property "Value" "0.1uF" (at 225.171 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 223.2152 31.75 0)
@@ -2746,8 +2854,17 @@
     (property "Datasheet" "~" (at 222.25 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a26218d9-d2f5-4acb-a786-e6ea226c61db))
-    (pin "2" (uuid a7652995-b703-4fb9-b085-81b3de540b06))
+    (property "Manufacturer_Name" "Murata" (at 222.25 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 222.25 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 222.25 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8520314c-1a08-484f-8d93-5feb5bb49ca0))
+    (pin "2" (uuid c0c5a6c6-19e1-4a15-b005-01b549afd0f5))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2777,8 +2894,17 @@
     (property "Datasheet" "~" (at 102.87 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37ecf7be-e634-4c02-ba99-8f49fdce4b6c))
-    (pin "2" (uuid d4db214f-94a0-4b88-9a99-aec5aaf01108))
+    (property "Manufacturer_Name" "Murata" (at 102.87 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM155C81A105KA12J" (at 102.87 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM155C81A105KA2J" (at 102.87 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad4665f1-5f56-4e3b-8786-7808f6f00bc4))
+    (pin "2" (uuid 76b34657-b3b1-4af1-a9e0-fc985354b5f1))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2803,7 +2929,7 @@
     (property "Datasheet" "" (at 191.77 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b4f09d9-baac-4e55-8b88-d30872d948a0))
+    (pin "1" (uuid b1557683-899a-4d16-a5c5-1dae9ee0154c))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2828,7 +2954,7 @@
     (property "Datasheet" "" (at 236.22 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25e76139-2d35-42cf-aac0-95675504fe67))
+    (pin "1" (uuid 4c16e5f4-4e23-4a6c-9161-7d22ded8ead8))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2853,11 +2979,20 @@
     (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC5317-High-Performance-Single-150mA-LDO-DS20006195B.pdf" (at 83.82 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c147cf79-0135-4101-8376-910d77c2e390))
-    (pin "2" (uuid dde860fc-2b32-4a1e-899b-4485ed246d18))
-    (pin "3" (uuid 649ade67-47d8-4b81-81c5-62a8d8e778ce))
-    (pin "4" (uuid ab6bbfe5-8391-4b29-9d00-5f1e46691544))
-    (pin "5" (uuid 3b9eb582-1f3c-4e92-8847-1453bb126fad))
+    (property "Manufacturer_Name" "Microchip" (at 91.44 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "MIC5317-3.3YMT-TR" (at 91.44 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "494-MIC531733YMTTR" (at 91.44 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3f59ea3-33df-403f-9a15-c776f810aed3))
+    (pin "2" (uuid 23d6d7ef-e1ac-4eed-b8c5-25a1c2ce01b7))
+    (pin "3" (uuid d461083f-7ba2-4430-9ab8-48d4bd9470e9))
+    (pin "4" (uuid 383c9a69-b96a-4c65-bfa1-dd222a3822b1))
+    (pin "5" (uuid 91489ed1-7643-412c-bae2-7fc15d105d91))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2882,63 +3017,72 @@
     (property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" (at 146.05 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38c1116c-5a5b-46ea-a5cc-5739cbdd6a0f))
-    (pin "10" (uuid a7ee5441-5074-4ecd-a1b4-5656088813d5))
-    (pin "11" (uuid 35910972-b9cf-46d9-a16c-e5b8d144e5b3))
-    (pin "12" (uuid 794c388f-63d2-4a1d-84f6-62bbb88e2d5c))
-    (pin "13" (uuid b8424694-5de7-4f21-bafa-08bef0bb3952))
-    (pin "14" (uuid 3a22e816-bd81-4134-a181-03fbe97cf25f))
-    (pin "15" (uuid 0172ea58-9de6-4648-9f61-7b6f4f1e1f41))
-    (pin "16" (uuid 52bf1403-233e-4c59-b86b-0350dec7dd78))
-    (pin "17" (uuid 481df33b-2731-4598-80bb-3a5c2870011c))
-    (pin "18" (uuid 1abe52e2-42f5-40a1-a89c-875ffceb1794))
-    (pin "19" (uuid c8ae9e11-8c2b-4f1b-9adc-ae4aadb5a7b2))
-    (pin "2" (uuid ee60a3cf-6355-4241-bbab-e4d1e7436eb6))
-    (pin "20" (uuid f3055c22-21e9-4f12-8483-2b6e92531061))
-    (pin "21" (uuid b44caba0-423d-4387-bf8e-0e70be46a030))
-    (pin "22" (uuid be38931c-37a8-4abe-a18d-ac7962ccfb3f))
-    (pin "23" (uuid d5c10fc2-a67b-4597-87a1-4d0161996b0d))
-    (pin "24" (uuid 2f28aa71-460b-4a2f-81af-75af18071a66))
-    (pin "25" (uuid ac255103-f3f7-416c-8662-1f89ccacd0ff))
-    (pin "26" (uuid f284102b-5e69-458c-b637-dd3a6a8d22aa))
-    (pin "27" (uuid cba99b45-9983-462e-bd17-e78aae0e50ce))
-    (pin "28" (uuid 6dfb93ac-e289-40e0-8ad5-61f6352af645))
-    (pin "29" (uuid 8f641726-6df8-446c-81e5-3ed5d36f4a53))
-    (pin "3" (uuid 98a5a14f-2735-4c25-b84c-ba88df4f82bb))
-    (pin "30" (uuid 057a2290-750f-419a-8f7d-b541b3f6c3f7))
-    (pin "31" (uuid 1d4254a4-73b0-489f-ae7f-d3dfc25a87f3))
-    (pin "32" (uuid f3b828b8-2af0-461e-9813-48619d5e0e1d))
-    (pin "33" (uuid de9edab4-f2b2-484d-9a75-f0ec1e872d19))
-    (pin "34" (uuid c04020c9-7a78-4568-b552-8a1425bb99bd))
-    (pin "35" (uuid 015ec175-93a8-4a7c-909f-08745154d880))
-    (pin "36" (uuid aae76c97-ff7e-41b7-b3c5-2f27b112ccbe))
-    (pin "37" (uuid a9ae37c3-3be2-4e2c-8092-d95d596f6b9b))
-    (pin "38" (uuid 84206f6c-625d-484a-8313-55df33fffe4c))
-    (pin "39" (uuid 175a01ad-89fe-4a5d-b227-5db492e9efe6))
-    (pin "4" (uuid 3253e4f0-5c70-4bf1-91c4-47b3a621edd8))
-    (pin "40" (uuid 5c01c457-fad9-4595-a22a-a2a7f7e9cdb9))
-    (pin "41" (uuid c3fbf359-d072-42e4-9a37-d74d4a92b8e6))
-    (pin "42" (uuid 53d626d0-b0e7-4615-8678-7e8326b3b52b))
-    (pin "43" (uuid e4123655-4651-40b7-b875-6e7f136fa59c))
-    (pin "44" (uuid 0ba79b39-7e92-4182-85c0-ed58e121bb9e))
-    (pin "45" (uuid f018cab5-aa20-4352-94d7-1b59e299cf76))
-    (pin "46" (uuid 02d693f3-b129-477f-871b-69b4902ec523))
-    (pin "47" (uuid 392178a2-5d54-461f-9023-2bd691eca6c4))
-    (pin "48" (uuid 92ec6ede-da6a-457f-a679-8135373f2e67))
-    (pin "49" (uuid 4e08f0cc-7fe4-48a4-8303-93eadf69506c))
-    (pin "5" (uuid aa45854c-b370-44a6-881b-a37bb5a6b535))
-    (pin "50" (uuid db75142f-294b-4562-ad6a-016564b183fa))
-    (pin "51" (uuid b3ceee03-ec5f-4ec9-8301-97918b5920c5))
-    (pin "52" (uuid 92999fbb-0450-41c1-ac22-a5564c84e7c8))
-    (pin "53" (uuid 559bc974-d829-41b4-8f6f-d3edb06a1c1b))
-    (pin "54" (uuid 18f75808-e7ce-4501-8611-912da3ffe234))
-    (pin "55" (uuid 46cd9213-f7aa-4ad6-a377-918368021108))
-    (pin "56" (uuid 7ec80a6d-c761-4d00-a7e0-bfff2ee4d293))
-    (pin "57" (uuid 01694e16-ee89-4add-a720-54d1f004ae9d))
-    (pin "6" (uuid 52b31c19-5f28-4280-b424-895d9fd72b55))
-    (pin "7" (uuid fe2a1c69-40d4-46f6-856a-783c0199e116))
-    (pin "8" (uuid 127c94ff-88a7-445a-b651-25937aef9348))
-    (pin "9" (uuid 76c5538f-b25a-4869-a98c-218b6a13adc9))
+    (property "Manufacturer_Name" "Raspberry Pi" (at 146.05 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SC0914(7)" (at 146.05 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "358-SC09147" (at 146.05 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9611f34e-84b0-4aa8-bf24-ed1c34c0a4cb))
+    (pin "10" (uuid b741e9a3-c183-4a60-af67-271a767f1f24))
+    (pin "11" (uuid d1d4f280-ff32-4557-b165-10014d4fe8ef))
+    (pin "12" (uuid 67effe42-780f-4b15-b238-27ee36851c4b))
+    (pin "13" (uuid 4c9bd83a-b351-404c-9132-83f2b077ff3f))
+    (pin "14" (uuid eba58900-6476-4633-923e-9bc5d47d4dbb))
+    (pin "15" (uuid 90e25691-8592-455c-982f-38d79d22895d))
+    (pin "16" (uuid 534160d8-b2f1-47db-aba2-cc22511e4f16))
+    (pin "17" (uuid 01ff113c-1a0b-4506-a73c-e88dbcf6475d))
+    (pin "18" (uuid f3f01702-a5fb-4ce8-8155-7cc3ff84ac0f))
+    (pin "19" (uuid 7c670f3f-5861-46d7-a588-1e7726bce6bd))
+    (pin "2" (uuid fc5cbb52-9aa7-4ae6-a7df-195881a2728b))
+    (pin "20" (uuid 11426d8a-2f4d-449b-841f-ac3de269e9e5))
+    (pin "21" (uuid 4edce893-78a1-44b6-b77e-f70b6c36dd80))
+    (pin "22" (uuid c7379929-f4de-4c02-9497-93867262cfd3))
+    (pin "23" (uuid 1cf427a9-771d-45eb-8374-d48e2a91a99b))
+    (pin "24" (uuid e60cb8a7-e2e3-498b-9be2-e02a8c53dcb6))
+    (pin "25" (uuid f6fd7f69-6b3d-41d2-ab68-b4dcb6b4b1e3))
+    (pin "26" (uuid 9888049d-694b-4d97-920c-c23dd2b6fcdb))
+    (pin "27" (uuid 1f584f23-88c6-4f45-8662-18d16f081e30))
+    (pin "28" (uuid 1c8e9b94-ee6a-4eaa-a985-9f099ead822e))
+    (pin "29" (uuid 156a69d4-3120-45dd-83c4-b3f421a7ef09))
+    (pin "3" (uuid 5b137b95-d86d-455a-94dd-c26abd26123c))
+    (pin "30" (uuid 643e37da-186c-43fe-a0c6-a928b823bc81))
+    (pin "31" (uuid c3bf7a11-99bb-4716-9fe7-161e4b36da8c))
+    (pin "32" (uuid 82ce74ce-b228-4202-a642-007279bbec0a))
+    (pin "33" (uuid 933d1532-5f31-46b2-aed7-4da64ea3d3e5))
+    (pin "34" (uuid 12acf533-db59-41e2-bd08-31d86d21d0ca))
+    (pin "35" (uuid 2f462085-a060-4241-ae02-42ec468c507b))
+    (pin "36" (uuid 66f3339f-d7fb-4903-bcac-af079fa875b9))
+    (pin "37" (uuid babbeae1-917e-4e65-bd8f-9a2a8b4a6827))
+    (pin "38" (uuid 8059fc25-b576-4918-a4c4-098359f8baae))
+    (pin "39" (uuid 68e47054-231d-412c-8ac4-a90f44afac64))
+    (pin "4" (uuid 703a6a79-1826-4779-b391-e0c3af1fd859))
+    (pin "40" (uuid 13af4bab-fd66-4dc0-a54e-7fa3668bc88f))
+    (pin "41" (uuid 8782d158-237f-4a69-adb0-de1827ac0486))
+    (pin "42" (uuid 77c0d011-4e76-46d7-9d12-d6d79b7ecf59))
+    (pin "43" (uuid 5067cb5d-9606-412f-9f5e-7260b901f57d))
+    (pin "44" (uuid bb18a6bc-1637-4096-8406-4342ed34dae8))
+    (pin "45" (uuid 8203078b-cc0b-4c11-99dc-3ade403533f6))
+    (pin "46" (uuid 1d4fb5c1-12eb-434e-8df7-2f61097b91d0))
+    (pin "47" (uuid 05bd22ed-42b5-4405-aafe-f0b510012329))
+    (pin "48" (uuid 2aeb5b04-a4d0-4a0e-946e-b3516bae9f27))
+    (pin "49" (uuid 3e66f556-6c95-49c1-a2ed-50a902879264))
+    (pin "5" (uuid 19f226a5-e05d-40b9-8576-73cbd437778b))
+    (pin "50" (uuid 43070f84-f9d1-4fb0-91f7-e99391d26539))
+    (pin "51" (uuid 3f0ae55f-61f5-4d68-b139-c9ee3a92b5d3))
+    (pin "52" (uuid 6c97acde-9921-458a-a9de-c11ad245005e))
+    (pin "53" (uuid 173cd0c1-d9dd-4beb-aab1-b1c92e952bea))
+    (pin "54" (uuid b51f19c8-563e-470b-82a1-f91bc01f3789))
+    (pin "55" (uuid c34ba29b-33d0-4b24-aac3-b0623a56dde6))
+    (pin "56" (uuid 436c5c90-9d19-485f-9044-2febdbb39f37))
+    (pin "57" (uuid 3acf2ce5-99d0-4a19-b7eb-f4543844e973))
+    (pin "6" (uuid 9afc2b33-9a97-473b-90d1-a8c8b580c2ca))
+    (pin "7" (uuid 94b181ec-d6b9-4da3-b4ae-33f9ec36ab58))
+    (pin "8" (uuid 9f9e8ab6-7e77-449a-b77b-38a629019721))
+    (pin "9" (uuid 31bd00bc-038a-479f-ae08-0381fc4a561d))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2963,7 +3107,7 @@
     (property "Datasheet" "" (at 115.57 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f72aa7e8-a828-4779-92ce-a3212325cc0e))
+    (pin "1" (uuid 1224c4ef-24f6-4a81-ad58-9a2e3836801f))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -2993,7 +3137,7 @@
     (property "Datasheet" "" (at 209.55 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6cd50188-f13c-4532-99c6-ac1f4802d190))
+    (pin "1" (uuid a980202e-d14c-42f5-a7cc-f284ec9f721f))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3018,7 +3162,7 @@
     (property "Datasheet" "" (at 102.87 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61d71d89-4169-455e-b009-820eebd05e2c))
+    (pin "1" (uuid a2f3760b-b7be-4454-935c-ac9984e75059))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3048,7 +3192,7 @@
     (property "Datasheet" "~" (at 81.28 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eade5fa9-e438-46c1-bd18-0a64a761fa48))
+    (pin "1" (uuid 2786e28e-ce95-4f71-8183-6689de47a9c5))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3064,7 +3208,7 @@
     (property "Reference" "C16" (at 135.001 42.0116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (at 135.001 44.323 0)
+    (property "Value" "1uF" (at 135.001 44.323 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 133.0452 46.99 0)
@@ -3073,8 +3217,17 @@
     (property "Datasheet" "~" (at 132.08 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db3891b4-7f21-4daf-bf3d-f3d990edad8e))
-    (pin "2" (uuid d39cd4b9-b85f-45f4-b64f-6a9b6a6901c2))
+    (property "Manufacturer_Name" "Murata" (at 132.08 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM155C81A105KA12J" (at 132.08 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM155C81A105KA2J" (at 132.08 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 17aece1b-31a6-48ef-8d85-875aa3ed7dcb))
+    (pin "2" (uuid 9e0b2809-466f-4641-afb4-b26c84753183))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3104,8 +3257,17 @@
     (property "Datasheet" "~" (at 104.14 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3e248e2-e8d1-4871-b6cc-cdba73df5baf))
-    (pin "2" (uuid 24fb21e3-5928-4449-9459-ca34efbb8fbc))
+    (property "Manufacturer_Name" "Murata" (at 104.14 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM0335C1E150JA01D" (at 104.14 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM0335C1E150JA1D" (at 104.14 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d03ade73-d0be-4492-bf5f-bc02f1552147))
+    (pin "2" (uuid f86d4e6c-c4b2-49db-83a5-ea7ec12d9e06))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3130,7 +3292,7 @@
     (property "Datasheet" "" (at 236.22 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e04f7a94-d397-4a9a-8194-f6396594e2ef))
+    (pin "1" (uuid ee58a156-42e0-4105-90a6-c0d16c69cb91))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3146,7 +3308,7 @@
     (property "Reference" "C12" (at 118.491 52.1716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 118.491 54.483 0)
+    (property "Value" "0.1uF" (at 118.491 54.483 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 116.5352 57.15 0)
@@ -3155,8 +3317,17 @@
     (property "Datasheet" "~" (at 115.57 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e2a7783-a537-4056-812c-298f56ea3c83))
-    (pin "2" (uuid 5d10afb0-6009-4f2b-aff8-69b15386718f))
+    (property "Manufacturer_Name" "Murata" (at 115.57 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 115.57 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 115.57 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 085b8d74-5ded-4b72-8788-2386b7ced056))
+    (pin "2" (uuid 0413184e-6b02-4558-8894-f1991d45e756))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3186,10 +3357,10 @@
     (property "Datasheet" "~" (at 237.49 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b468967-a4e5-4d0a-aa40-b84594f8fa24))
-    (pin "2" (uuid 16f45b7e-bce4-4e82-aebb-0c9b02316cfe))
-    (pin "3" (uuid f94eecf5-8722-490b-a314-49f2ed2e02b4))
-    (pin "4" (uuid fa7220f5-3faf-4388-90ff-750194c67150))
+    (pin "1" (uuid 3acf9b05-bf98-4743-a458-88ad5e0597d8))
+    (pin "2" (uuid 1dd1f10a-7c26-439d-b555-00f407bfaada))
+    (pin "3" (uuid 1362db2c-d417-4440-9688-6354babce343))
+    (pin "4" (uuid 9727186c-9176-4790-a66f-49b409851c6c))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3214,7 +3385,7 @@
     (property "Datasheet" "" (at 156.21 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d1e74c0-5412-495b-b5b7-e113810571c6))
+    (pin "1" (uuid f8247e60-0d9f-4f6e-be99-f60d733c59bc))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3244,7 +3415,7 @@
     (property "Datasheet" "" (at 140.97 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f7773d4-8cc2-4db4-a701-29455498985e))
+    (pin "1" (uuid a28ed51f-ee6b-41ba-888e-bd1fb193fb21))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3265,7 +3436,7 @@
     (property "Reference" "C21" (at 202.311 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 202.311 29.083 0)
+    (property "Value" "0.1uF" (at 202.311 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 200.3552 31.75 0)
@@ -3274,8 +3445,17 @@
     (property "Datasheet" "~" (at 199.39 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7329ef52-083c-4b01-8aa5-2b4cc7e1a9d1))
-    (pin "2" (uuid cca02e0a-74ff-4b27-8181-25f574c9ae90))
+    (property "Manufacturer_Name" "Murata" (at 199.39 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 199.39 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 199.39 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4fde83eb-b61e-47fd-ad36-6cafcc473e71))
+    (pin "2" (uuid aae87726-43f5-4f82-b2fa-f6ff7235a23e))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3305,8 +3485,17 @@
     (property "Datasheet" "~" (at 76.2 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5a811eb-0032-472b-a151-9482957eeb62))
-    (pin "2" (uuid 1778d286-bb37-47f9-af73-a577421aed05))
+    (property "Manufacturer_Name" "Bourns" (at 76.2 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "CR0201-FW-1001GLF" (at 76.2 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "652-CR0201FW-1001GLF" (at 76.2 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 58eb6b00-9168-48f7-9365-79f01d2cd659))
+    (pin "2" (uuid d25f6466-d861-4606-9b37-933d58ac3636))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3336,7 +3525,7 @@
     (property "Datasheet" "" (at 67.31 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a03dd725-2401-4b69-a1b8-285dc05ec3fc))
+    (pin "1" (uuid 0f04e9d6-2f84-4944-b959-f15838208e92))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3352,7 +3541,7 @@
     (property "Reference" "C14" (at 123.571 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 123.571 29.083 0)
+    (property "Value" "0.1uF" (at 123.571 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 121.6152 31.75 0)
@@ -3361,8 +3550,17 @@
     (property "Datasheet" "~" (at 120.65 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b18b673-26e8-4990-bcfa-b4b324f78441))
-    (pin "2" (uuid b837f624-b39e-487d-a7f3-a50e197afc71))
+    (property "Manufacturer_Name" "Murata" (at 120.65 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 120.65 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 120.65 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d74e8efb-5978-421a-9721-e27a9e6ea4c4))
+    (pin "2" (uuid 6c0c9ad6-17fd-49a9-8c99-1de36e15892b))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3392,8 +3590,17 @@
     (property "Datasheet" "~" (at 200.66 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 478defa5-4320-4166-82b7-1552e7e00bd8))
-    (pin "2" (uuid 6487638e-d021-4f51-973d-ade6a62f917b))
+    (property "Manufacturer_Name" "Murata" (at 200.66 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM155R61A104KA01J" (at 200.66 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM15R61A104KA01J" (at 200.66 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c09acd74-7bf8-4731-8f49-84a555e944bd))
+    (pin "2" (uuid 2c5407d4-b2b2-47d3-8605-cec8ec6c8cc3))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3409,7 +3616,7 @@
     (property "Reference" "C17" (at 168.021 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 168.021 29.083 0)
+    (property "Value" "0.1uF" (at 168.021 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 166.0652 31.75 0)
@@ -3418,8 +3625,17 @@
     (property "Datasheet" "~" (at 165.1 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 23c9a338-547e-4d70-9ebd-9d0f4e866792))
-    (pin "2" (uuid c2427e19-0754-45ee-a0fe-26f1f44b9c8c))
+    (property "Manufacturer_Name" "Murata" (at 165.1 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "GRM033C80J104KE15D" (at 165.1 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "81-GRM33C80J104KE15D" (at 165.1 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f414e80-5567-48ce-b2c8-eeec44fa1313))
+    (pin "2" (uuid 73bf85fa-baed-4d7f-b2eb-69a9b4c1fd77))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3449,7 +3665,7 @@
     (property "Datasheet" "" (at 146.05 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9330b67f-420f-4712-80de-6a36e5ea41cb))
+    (pin "1" (uuid 881fa36c-87a1-4568-9872-e9042a434953))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3474,7 +3690,7 @@
     (property "Datasheet" "" (at 107.95 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 815be17d-3024-4a27-bd30-b65cf05f3854))
+    (pin "1" (uuid 862d94f9-719f-4fcb-a1c7-cf00f763ab24))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3499,8 +3715,17 @@
     (property "Datasheet" "~" (at 104.14 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 139e5a0f-90c4-4b35-915f-eb15b816c4cd))
-    (pin "2" (uuid 3c848ad8-0264-4619-9983-7b9374278273))
+    (property "Manufacturer_Name" "YAGEO" (at 104.14 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "RC0201FR-0727RL" (at 104.14 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "603-RC0201FR-0727RL" (at 104.14 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d9a0d1d4-9b5e-481f-bc76-84a9d71c80d6))
+    (pin "2" (uuid c2b5993e-77f0-4374-9e23-7a66dd53a506))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3525,7 +3750,7 @@
     (property "Datasheet" "" (at 194.31 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9bf425e-4c46-4b81-8f1e-2b34b98fa94e))
+    (pin "1" (uuid 3abc1adc-d4b3-43cb-aee3-7e63bac76cda))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
@@ -3550,7 +3775,7 @@
     (property "Datasheet" "" (at 194.31 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1037a53-d29b-41bc-9b3c-80c13e86b947))
+    (pin "1" (uuid 3198d9a7-28c5-45f7-886a-aec61ac36f96))
     (instances
       (project "indexspeakerdac"
         (path "/127a684f-a164-4c21-a0eb-ed7eeda02184"
