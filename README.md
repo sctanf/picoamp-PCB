@@ -12,6 +12,4 @@ pcb|3d
 --|--
 ![pcb](../../blob/main/images/indexspeakerdacsmol-pcb.png)|![3d](../../blob/main/images/indexspeakerdacsmol-3d.png)
 
-board on hotplate|finished board|more boards
---|--|--
-![board on hotplate](../../blob/main/images/DSC_0401.webp)|![finished board](../../blob/main/images/DSC_0404.webp)|![more boards](../../blob/main/images/DSC_0409.webp)
+![finished board](../../blob/main/images/DSC_0404.webp)
