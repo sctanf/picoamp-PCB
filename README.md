@@ -8,8 +8,8 @@ compact usb-i2s dac using rp2040 and max98360a for powering speakers, like index
 
 firmware for the device is at https://github.com/sctanf/picoamp
 
-pcb|3d
---|--
-![pcb](../../blob/main/images/indexspeakerdacsmol-pcb.png)|![3d](../../blob/main/images/indexspeakerdacsmol-3d.png)
+pcb|3d|dev-pcb|dev-3d
+--|--|--|--
+![pcb](../../blob/main/images/indexspeakerdacsmol-pcb.png)|![3d](../../blob/main/images/indexspeakerdacsmol-3d.png)|![dev-pcb](../../blob/main/images/indexspeakerdacdev-pcb.png)|![dev-3d](../../blob/main/images/indexspeakerdacdev-3d.png)
 
 ![finished board](../../blob/main/images/DSC_0404.webp)
