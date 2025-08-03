@@ -6,7 +6,7 @@ compact usb-i2s dac using rp2040 and max98360a for powering speakers, like index
 * 0201 components suck to work with.
 * intended to use with a usb-c cable, however the CC wire needs 5.1K pull-down to ground which I forgot about
 
-firmware for the device is at https://github.com/sctanf/picoamp
+firmware for the device is at https://github.com/sctanf/picoamp-2
 
 pcb|3d|dev-pcb|dev-3d
 --|--|--|--
